@@ -1,3 +1,4 @@
+// =================================================================================================================
 //
 //  GameViewController.m
 //  infiniteDiscoveriesAdventure
@@ -5,9 +6,14 @@
 //  Created by Jeffrey Young on 10/29/15.
 //  Copyright (c) 2015 infinite Discoveries. All rights reserved.
 //
+// =================================================================================================================
 
-#import "GameViewController.h"
-#import "GameScene.h"
+#import "idAdvGameViewController.h"
+#import "idAdvGameScene.h"
+
+// =================================================================================================================
+#pragma mark - SKScene Object Methods
+// =================================================================================================================
 
 @implementation SKScene (Unarchive)
 
@@ -28,7 +34,11 @@
 
 @end
 
-@implementation GameViewController
+// =================================================================================================================
+#pragma mark - idAdvGameViewController Object Methods
+// =================================================================================================================
+
+@implementation idAdvGameViewController
 
 - (void)viewDidLoad
 {
@@ -42,17 +52,21 @@
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+    idAdvGameScene *scene = [idAdvGameScene unarchiveFromFile:@"GameScene"];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
     [skView presentScene:scene];
 }
 
+// -----------------------------------------------------------------------------------------------------------------
+
 - (BOOL)shouldAutorotate
 {
     return YES;
 }
+
+// -----------------------------------------------------------------------------------------------------------------
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations
 {
@@ -63,11 +77,15 @@
     }
 }
 
+// -----------------------------------------------------------------------------------------------------------------
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
 }
+
+// -----------------------------------------------------------------------------------------------------------------
 
 - (BOOL)prefersStatusBarHidden {
     return YES;

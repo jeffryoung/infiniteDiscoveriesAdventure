@@ -1,19 +1,15 @@
 // =================================================================================================================
 //
-//  AppDelegate.h
+//  idAdvGameViewController.h
 //  infiniteDiscoveriesAdventure
 //
-//  Created by Jeffrey Young on 10/29/15.
-//  Copyright © 2015 infinite Discoveries. All rights reserved.
+//  Copyright (c) 2015 infinite Discoveries. All rights reserved.
 //
 // =================================================================================================================
 
 #import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface idAdvGameViewController : UIViewController
 
 @end
-

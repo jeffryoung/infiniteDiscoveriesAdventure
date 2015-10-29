@@ -1,14 +1,22 @@
+// =================================================================================================================
 //
-//  GameScene.m
+//  idAdvGameScene.m
 //  infiniteDiscoveriesAdventure
 //
 //  Created by Jeffrey Young on 10/29/15.
 //  Copyright (c) 2015 infinite Discoveries. All rights reserved.
 //
+// =================================================================================================================
 
-#import "GameScene.h"
+#import "idAdvGameScene.h"
 
-@implementation GameScene
+// =================================================================================================================
+#pragma mark - Object Methods
+// =================================================================================================================
+
+@implementation idAdvGameScene
+
+// -----------------------------------------------------------------------------------------------------------------
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
@@ -21,6 +29,8 @@
     
     [self addChild:myLabel];
 }
+
+// -----------------------------------------------------------------------------------------------------------------
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
@@ -41,6 +51,8 @@
         [self addChild:sprite];
     }
 }
+
+// -----------------------------------------------------------------------------------------------------------------
 
 -(void)update:(CFTimeInterval)currentTime {
     /* Called before each frame is rendered */
