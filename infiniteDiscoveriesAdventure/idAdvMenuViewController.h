@@ -1,20 +1,21 @@
 // =================================================================================================================
 //
-//  AppDelegate.h
+//  idAdvMenuViewController.h
 //  infiniteDiscoveriesAdventure
 //
-//  Created by Jeffrey Young on 10/29/15.
+//  Created by Jeffrey Young on 11/5/15.
 //  Copyright © 2015 infinite Discoveries. All rights reserved.
 //
 // =================================================================================================================
 
+#ifndef idAdvMenuViewController_h
+#define idAdvMenuViewController_h
+
 #import <UIKit/UIKit.h>
-#import "infiniteDiscoveriesAdventure.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface idAdvMenuViewController : UIViewController
 
 @end
 
+
+#endif /* idAdvMenuViewController_h */

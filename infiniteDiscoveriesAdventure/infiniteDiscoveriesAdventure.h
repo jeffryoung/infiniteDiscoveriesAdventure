@@ -1,17 +1,15 @@
 // =================================================================================================================
 //
-//  idAdvGameScene.h
+//  infiniteDiscoveriesAdventure.h
 //  infiniteDiscoveriesAdventure
 //
-//  Copyright (c) 2015 infinite Discoveries. All rights reserved.
+//  Created by Jeffrey Young on 11/4/15.
+//  Copyright © 2015 infinite Discoveries. All rights reserved.
 //
 // =================================================================================================================
 
-#import <SpriteKit/SpriteKit.h>
-#import "infiniteDiscoveriesAdventure.h"
+#ifndef infiniteDiscoveriesAdventure_h
+#define infiniteDiscoveriesAdventure_h
 
-@interface idAdvGameScene : SKScene
 
-@property (nonatomic, copy) dispatch_block_t p_endGameCallback;
-
-@end
+#endif /* infiniteDiscoveriesAdventure_h */

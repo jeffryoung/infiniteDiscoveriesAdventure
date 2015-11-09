@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40F46851BEBFE2100C0C247 /* idAdvOpeningScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E40F46841BEBFE2100C0C247 /* idAdvOpeningScene.m */; };
+		E40F46881BEC00E700C0C247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40F46871BEC00E700C0C247 /* Main.storyboard */; };
+		E40F468A1BEC038600C0C247 /* infiniteDiscoveriesWebLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E40F46891BEC038600C0C247 /* infiniteDiscoveriesWebLogo.png */; };
+		E40F468E1BEC127100C0C247 /* idAdvMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40F468D1BEC127100C0C247 /* idAdvMenuViewController.m */; };
 		E4B9AEA91BE2BAFB0054358B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9AEA81BE2BAFB0054358B /* main.m */; };
 		E4B9AEAC1BE2BAFB0054358B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9AEAB1BE2BAFB0054358B /* AppDelegate.m */; };
 		E4B9AEAF1BE2BAFB0054358B /* idAdvGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9AEAE1BE2BAFB0054358B /* idAdvGameScene.m */; };
 		E4B9AEB11BE2BAFB0054358B /* idAdvGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4B9AEB01BE2BAFB0054358B /* idAdvGameScene.sks */; };
-		E4B9AEB41BE2BAFB0054358B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9AEB31BE2BAFB0054358B /* GameViewController.m */; };
-		E4B9AEB71BE2BAFB0054358B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B9AEB51BE2BAFB0054358B /* Main.storyboard */; };
+		E4B9AEB41BE2BAFB0054358B /* idAdvGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9AEB31BE2BAFB0054358B /* idAdvGameViewController.m */; };
 		E4B9AEB91BE2BAFB0054358B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B9AEB81BE2BAFB0054358B /* Assets.xcassets */; };
 		E4B9AEBC1BE2BAFB0054358B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B9AEBA1BE2BAFB0054358B /* LaunchScreen.storyboard */; };
 		E4B9AEC71BE2BAFB0054358B /* infiniteDiscoveriesAdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B9AEC61BE2BAFB0054358B /* infiniteDiscoveriesAdventureTests.m */; };
@@ -37,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40243F81BEA943D00B90C27 /* infiniteDiscoveriesAdventure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infiniteDiscoveriesAdventure.h; sourceTree = "<group>"; };
+		E40F46831BEBFE2100C0C247 /* idAdvOpeningScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idAdvOpeningScene.h; sourceTree = "<group>"; };
+		E40F46841BEBFE2100C0C247 /* idAdvOpeningScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idAdvOpeningScene.m; sourceTree = "<group>"; };
+		E40F46871BEC00E700C0C247 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E40F46891BEC038600C0C247 /* infiniteDiscoveriesWebLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infiniteDiscoveriesWebLogo.png; sourceTree = "<group>"; };
+		E40F468C1BEC127100C0C247 /* idAdvMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idAdvMenuViewController.h; sourceTree = "<group>"; };
+		E40F468D1BEC127100C0C247 /* idAdvMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idAdvMenuViewController.m; sourceTree = "<group>"; };
 		E4B9AEA41BE2BAFB0054358B /* infiniteDiscoveriesAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = infiniteDiscoveriesAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B9AEA81BE2BAFB0054358B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4B9AEAA1BE2BAFB0054358B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,8 +55,7 @@
 		E4B9AEAE1BE2BAFB0054358B /* idAdvGameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idAdvGameScene.m; sourceTree = "<group>"; };
 		E4B9AEB01BE2BAFB0054358B /* idAdvGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = idAdvGameScene.sks; sourceTree = "<group>"; };
 		E4B9AEB21BE2BAFB0054358B /* idAdvGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idAdvGameViewController.h; sourceTree = "<group>"; };
-		E4B9AEB31BE2BAFB0054358B /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		E4B9AEB61BE2BAFB0054358B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4B9AEB31BE2BAFB0054358B /* idAdvGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = idAdvGameViewController.m; sourceTree = "<group>"; };
 		E4B9AEB81BE2BAFB0054358B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B9AEBB1BE2BAFB0054358B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4B9AEBD1BE2BAFB0054358B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +92,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E40F46861BEBFF4F00C0C247 /* Game Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E4B9AEAD1BE2BAFB0054358B /* idAdvGameScene.h */,
+				E4B9AEAE1BE2BAFB0054358B /* idAdvGameScene.m */,
+				E4B9AEB01BE2BAFB0054358B /* idAdvGameScene.sks */,
+				E40F46831BEBFE2100C0C247 /* idAdvOpeningScene.h */,
+				E40F46841BEBFE2100C0C247 /* idAdvOpeningScene.m */,
+			);
+			name = "Game Scenes";
+			sourceTree = "<group>";
+		};
+		E40F468B1BEC039D00C0C247 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				E40F46891BEC038600C0C247 /* infiniteDiscoveriesWebLogo.png */,
+			);
+			name = Artwork;
+			sourceTree = "<group>";
+		};
 		E4B9AE9B1BE2BAFB0054358B = {
 			isa = PBXGroup;
 			children = (
@@ -106,17 +135,19 @@
 		E4B9AEA61BE2BAFB0054358B /* infiniteDiscoveriesAdventure */ = {
 			isa = PBXGroup;
 			children = (
+				E40243F81BEA943D00B90C27 /* infiniteDiscoveriesAdventure.h */,
 				E4B9AEAA1BE2BAFB0054358B /* AppDelegate.h */,
 				E4B9AEAB1BE2BAFB0054358B /* AppDelegate.m */,
-				E4B9AEAD1BE2BAFB0054358B /* idAdvGameScene.h */,
-				E4B9AEAE1BE2BAFB0054358B /* idAdvGameScene.m */,
-				E4B9AEB01BE2BAFB0054358B /* idAdvGameScene.sks */,
 				E4B9AEB21BE2BAFB0054358B /* idAdvGameViewController.h */,
-				E4B9AEB31BE2BAFB0054358B /* GameViewController.m */,
-				E4B9AEB51BE2BAFB0054358B /* Main.storyboard */,
-				E4B9AEB81BE2BAFB0054358B /* Assets.xcassets */,
+				E4B9AEB31BE2BAFB0054358B /* idAdvGameViewController.m */,
+				E40F468C1BEC127100C0C247 /* idAdvMenuViewController.h */,
+				E40F468D1BEC127100C0C247 /* idAdvMenuViewController.m */,
+				E40F46861BEBFF4F00C0C247 /* Game Scenes */,
+				E40F46871BEC00E700C0C247 /* Main.storyboard */,
 				E4B9AEBA1BE2BAFB0054358B /* LaunchScreen.storyboard */,
 				E4B9AEBD1BE2BAFB0054358B /* Info.plist */,
+				E4B9AEB81BE2BAFB0054358B /* Assets.xcassets */,
+				E40F468B1BEC039D00C0C247 /* Artwork */,
 				E4B9AEA71BE2BAFB0054358B /* Supporting Files */,
 			);
 			path = infiniteDiscoveriesAdventure;
@@ -254,7 +285,8 @@
 				E4B9AEB11BE2BAFB0054358B /* idAdvGameScene.sks in Resources */,
 				E4B9AEBC1BE2BAFB0054358B /* LaunchScreen.storyboard in Resources */,
 				E4B9AEB91BE2BAFB0054358B /* Assets.xcassets in Resources */,
-				E4B9AEB71BE2BAFB0054358B /* Main.storyboard in Resources */,
+				E40F46881BEC00E700C0C247 /* Main.storyboard in Resources */,
+				E40F468A1BEC038600C0C247 /* infiniteDiscoveriesWebLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +311,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B9AEB41BE2BAFB0054358B /* GameViewController.m in Sources */,
+				E4B9AEB41BE2BAFB0054358B /* idAdvGameViewController.m in Sources */,
+				E40F468E1BEC127100C0C247 /* idAdvMenuViewController.m in Sources */,
+				E40F46851BEBFE2100C0C247 /* idAdvOpeningScene.m in Sources */,
 				E4B9AEAC1BE2BAFB0054358B /* AppDelegate.m in Sources */,
 				E4B9AEAF1BE2BAFB0054358B /* idAdvGameScene.m in Sources */,
 				E4B9AEA91BE2BAFB0054358B /* main.m in Sources */,
@@ -318,14 +352,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E4B9AEB51BE2BAFB0054358B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4B9AEB61BE2BAFB0054358B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4B9AEBA1BE2BAFB0054358B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -510,6 +536,7 @@
 				E4B9AED81BE2BAFB0054358B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4B9AED91BE2BAFB0054358B /* Build configuration list for PBXNativeTarget "infiniteDiscoveriesAdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +545,7 @@
 				E4B9AEDB1BE2BAFB0054358B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4B9AEDC1BE2BAFB0054358B /* Build configuration list for PBXNativeTarget "infiniteDiscoveriesAdventureUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +554,7 @@
 				E4B9AEDE1BE2BAFB0054358B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

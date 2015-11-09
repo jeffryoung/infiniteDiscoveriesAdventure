@@ -1,6 +1,6 @@
 // =================================================================================================================
 //
-//  GameViewController.m
+//  idAdvGameViewController.m
 //  infiniteDiscoveriesAdventure
 //
 //  Created by Jeffrey Young on 10/29/15.
@@ -48,11 +48,12 @@
     SKView * skView = (SKView *)self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
+    
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
     
-    // Create and configure the scene.
-    idAdvGameScene *scene = [idAdvGameScene unarchiveFromFile:@"GameScene"];
+    // Create and configure the initial scene.
+    idAdvGameScene *scene = [idAdvGameScene unarchiveFromFile:@"idAdvGameScene"];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
